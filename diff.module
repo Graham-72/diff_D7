@@ -14,7 +14,7 @@ function diff_help($section) {
     case 'admin/modules#description':
       return t('Show difference between node revisions.');
     case 'admin/help#diff':
-      $output = '<p>'. t('The diff module overwrites the normal revisions view. The revisions table is enhanced with a possibility to view the difference between two node revisions. Users with the <em>view revisions</em> permission will also be able to view the changes between any two selected revisions.') .'</p>';
+      $output = '<p>'. t('The diff module overwrites the normal revisions view. The revisions table is enhanced with a possibility to view the difference between two node revisions. Users with the %view_revisions permission will also be able to view the changes between any two selected revisions.', array('%view_revisions' => theme('placeholder', t('view revisions')))).'</p>';
       return $output;
   }
 }
