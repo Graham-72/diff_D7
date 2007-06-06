@@ -1,0 +1,103 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (diff.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: diff.module,v 1.11.2.5 2007/06/06 18:14:58 dww
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2007-06-06 11:15-0700\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: diff.module:15
+msgid "Show difference between node revisions."
+msgstr ""
+
+#: diff.module:17
+msgid "The diff module overwrites the normal revisions view. The revisions table is enhanced with a possibility to view the difference between two node revisions. Users with the %view_revisions permission will also be able to view the changes between any two selected revisions."
+msgstr ""
+
+#: diff.module:17
+msgid "view revisions"
+msgstr ""
+
+#: diff.module:93
+msgid "Diff for %title"
+msgstr ""
+
+#: diff.module:119
+msgid "Revisions for %title"
+msgstr ""
+
+#: diff.module:170;178;297;301
+msgid "!date by !username"
+msgstr ""
+
+#: diff.module:184
+msgid "revert"
+msgstr ""
+
+#: diff.module:187
+msgid "delete"
+msgstr ""
+
+#: diff.module:210
+msgid "Show diff"
+msgstr ""
+
+#: diff.module:226
+msgid "Revision"
+msgstr ""
+
+#: diff.module:228
+msgid "Operations"
+msgstr ""
+
+#: diff.module:248
+msgid "current revision"
+msgstr ""
+
+#: diff.module:278
+msgid "Select different revisions to compare."
+msgstr ""
+
+#: diff.module:312
+msgid "next diff >"
+msgstr ""
+
+#: diff.module:319
+msgid "< previous diff"
+msgstr ""
+
+#: diff.module:337
+msgid "Current revision:"
+msgstr ""
+
+#: diff.module:340
+msgid "Revision of !new_date:"
+msgstr ""
+
+#: diff.module:373
+msgid "Changes to %name"
+msgstr ""
+
+#: diff.module:379
+msgid "No visible changes"
+msgstr ""
+
+#: diff.module:422;481
+msgid "Preview changes"
+msgstr ""
+
+#: diff.module:0
+msgid "diff"
+msgstr ""
+
