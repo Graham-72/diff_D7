@@ -1,5 +1,4 @@
 <?php
-// $Id$
 
 /**
 // A PHP diff engine for phpwiki. (Taken from phpwiki-1.3.3)
