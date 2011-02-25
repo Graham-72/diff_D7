@@ -1,5 +1,4 @@
 <?php
-// $Id$
 
 /**
  * @file Proposed hook_diff() implementation for taxonomy.
