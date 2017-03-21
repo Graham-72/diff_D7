@@ -742,8 +742,8 @@ class MappedDiff extends Diff {
    *  have the same number of elements as $to_lines.
    */
   function __construct($from_lines, $to_lines, $mapped_from_lines, $mapped_to_lines) {
-    assert(sizeof($from_lines) == sizeof($mapped_from_lines));
-    assert(sizeof($to_lines) == sizeof($mapped_to_lines));
+    USE_ASSERTS && assert(sizeof($from_lines) == sizeof($mapped_from_lines));
+    USE_ASSERTS && assert(sizeof($to_lines) == sizeof($mapped_to_lines));
 
     parent::__construct($mapped_from_lines, $mapped_to_lines);
 
@@ -1000,7 +1000,7 @@ class _HWLDF_WordAccumulator {
         $this->_flushLine($tag);
         $word = drupal_substr($word, 1);
       }
-      assert(!strstr($word, "\n"));
+      USE_ASSERTS && assert(!strstr($word, "\n"));
       $this->_group .= $word;
     }
   }
